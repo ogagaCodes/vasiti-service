@@ -8,4 +8,6 @@ module.exports = {
   dbPort: process.env.DBPORT,
   db: process.env.DATABASE,
   PORT: process.env.PORT,
+  JWTSecret: process.env.JWTSECRET,
+  expiresIn: process.env.EXPIRES_IN,
 };

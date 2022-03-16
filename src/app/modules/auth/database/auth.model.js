@@ -1,3 +1,5 @@
+// for logout functinalities
+
 module.exports = (sequelize, Sequelize) => {
     let Auth = sequelize.define("auth", {
       id: {
